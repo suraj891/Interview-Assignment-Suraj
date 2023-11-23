@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Assignment</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="card">
+
+        <div id="card-body">
+            <div class="card-header">
+                <div>
+                    <svg id="left-arrow" xmlns="http://www.w3.org/2000/svg" width="22" height="25" fill="none">
+                        <path
+                            d="M13.3191 22.1455L6.27822 14.3224H22V10.6777H6.27822L13.3191 2.85458L11 0.277832L0 12.5001L11 24.7223L13.3191 22.1455Z"
+                            fill="black" />
+                    </svg>
+                </div>
+                <div>
+                    <svg id="left-right" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"
+                        fill="none">
+                        <path
+                            d="M17.5 12C18.8807 12 20 10.8807 20 9.5C20 8.11929 18.8807 7 17.5 7C16.1193 7 15 8.11929 15 9.5C15 10.8807 16.1193 12 17.5 12Z"
+                            fill="black" />
+                        <path
+                            d="M17.5 20C18.8807 20 20 18.8807 20 17.5C20 16.1193 18.8807 15 17.5 15C16.1193 15 15 16.1193 15 17.5C15 18.8807 16.1193 20 17.5 20Z"
+                            fill="black" />
+                        <path
+                            d="M17.5 29C18.8807 29 20 27.8807 20 26.5C20 25.1193 18.8807 24 17.5 24C16.1193 24 15 25.1193 15 26.5C15 27.8807 16.1193 29 17.5 29Z"
+                            fill="black" />
+                    </svg>
+                </div>
+            </div>
+            <h3 id="mark">Marks</h3>
+            <!-- Progree Bar  -->
+            <div class="skills">
+                <div class="outer">
+                    <div class="inter">
+                        <div id="number">70%</div>
+                    </div>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                        <path
+                            d="M155.848 111.965C163.884 92.5403 164.054 70.752 156.321 51.2043C148.588 31.6566 133.559 15.8808 114.408 7.21048C95.2579 -1.45982 73.4869 -2.34544 53.6956 4.74076C33.9044 11.827 17.6432 26.3299 8.34824 45.1849C-0.946715 64.0399 -2.54732 85.77 3.88464 105.783C10.3166 125.797 24.2773 142.526 42.8167 152.436C61.356 162.345 83.0218 164.659 103.236 158.888C123.45 153.117 140.629 139.714 151.142 121.51L130.099 109.357C122.74 122.1 110.715 131.482 96.5651 135.522C82.4153 139.561 67.2492 137.942 54.2717 131.005C41.2941 124.068 31.5216 112.358 27.0192 98.3484C22.5169 84.339 23.6373 69.1279 30.1438 55.9294C36.6502 42.7309 48.0331 32.5789 61.8869 27.6185C75.7408 22.6582 90.9805 23.2781 104.386 29.3473C117.791 35.4165 128.312 46.4596 133.725 60.143C139.137 73.8264 139.019 89.0782 133.393 102.676L155.848 111.965Z"
+                            fill="#F2F2F2" />
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#EB3549" />
+                                <stop offset="100%" stop-color="#F14D45" />
+                            </linearGradient>
+                        </defs>
+                        <circle class="circle-progress" cx="80" cy="80" r="70" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="eligibility-message">
+                <p id="message"></p>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="form-control">
+                <label for="Percent">Percent</label>
+                <input type="text" value="70%" id="marks">
+            </div>
+            <div id="Frame">
+                <div id="Frame-one">
+                    <div id="Frame-one-suqure"></div>
+                    <div id="Marks-Obtained">Marks Obtained</div>
+                </div>
+                <div id="Frame-second">
+                    <div id="Frame-second-suqure"></div>
+                    <div id="Marks-Deducted">Marks Deducted</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="./index.js"></script>
